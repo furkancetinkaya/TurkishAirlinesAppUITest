@@ -1,0 +1,23 @@
+[
+  {
+    "key": "PermissionMessageAllowOnlyForeground",
+    "androidValue": "com.android.permissioncontroller:id/permission_allow_foreground_only_button",
+    "androidType": "id",
+    "iosValue": "x",
+    "iosType": "x"
+  },
+  {
+    "key": "PrivacyAndCookiesAccept",
+    "androidValue": "com.turkishairlines.mobile:id/frPrivacy_btnAccept",
+    "androidType": "id",
+    "iosValue": "x",
+    "iosType": "x"
+  },
+  {
+    "key": "BookAFlightBtn",
+    "androidValue": "com.turkishairlines.mobile:id/acMain_btnBooking",
+    "androidType": "id",
+    "iosValue": "x",
+    "iosType": "x"
+  }
+]

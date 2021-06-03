@@ -1,0 +1,55 @@
+Created by Furkan Çetinkaya <furkan.cetinkaya@testinium.com>
+
+# AppStartup
+* Click "PermissionMessageAllowOnlyForeground" by ID
+* Wait until "3" passed
+* Click "PrivacyAndCookiesAccept" by ID
+* Wait until "3" passed
+
+# Booking Operation
+* Click "BookAFlightBtn" by ID
+* Wait until "3" passed
+* Click "OneWayFlightBtn" by ID
+* Wait until "3" passed
+
+# Departure Airport Selection
+* Click "DepartureAirportSelect" by ID
+* Wait until "3" passed
+* Fill "SAW" into "SearchBar" via ID
+* Wait until "3" passed
+* Click "SearchSelectionSAW" by XPath
+* Wait until "3" passed
+
+# Arrival Airport Selection
+* Click "ArrivalAirportSelect" by ID
+* Wait until "3" passed
+* Fill "ESB" into "SearchBar" via ID
+* Wait until "3" passed
+* Click "SearchSelectionESB" by XPath
+* Wait until "3" passed
+
+# Select Departure Date
+* Select Departure Date (Current data + 2)
+* Wait until "3" passed
+* Click "DateBtnDone" by ID
+* Wait until "3" passed
+
+# Increase Adult Passenger Number to 2
+* Click "IncreaseAdultPassenger" by XPath
+* Wait until "3" passed
+
+# List available flights
+* Click "SearchFlightsBtn" by ID
+* Wait until "3" passed
+* Assert "SortAndFilterBtn" via ID is present
+* Wait until "3" passed
+
+# Select EcoFly
+* Select and Click to "FlightPriceButtons"
+* Wait until "3" passed
+* Click "EcoFlyBtn" by XPath
+* Wait until "3" passed
+
+# Continue
+* Click "FlightContinueBtn" by ID
+* Wait until "10" passed

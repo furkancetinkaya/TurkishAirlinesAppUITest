@@ -1,0 +1,30 @@
+[
+  {
+    "key": "SearchBar",
+    "androidValue" : "com.turkishairlines.mobile:id/frAirportSelection_etSearch",
+    "androidType" : "id",
+    "iosValue" : "x",
+    "iosType" : "x"
+  },
+  {
+    "key": "SearchSelectionSAW",
+    "androidValue": "//*[@text=\"SAW - Sabiha Gokcen Airport\"]",
+    "androidType": "xpath",
+    "iosValue": "x",
+    "iosType": "x"
+  },
+  {
+    "key": "SearchSelectionESB",
+    "androidValue": "//*[@text=\"ESB - Ankara Esenboga Airport\"]",
+    "androidType": "xpath",
+    "iosValue": "x",
+    "iosType": "x"
+  },
+  {
+    "key": "SearchFlightsBtn",
+    "androidValue": "//*[@text=\"Search Flight\"]",
+    "androidType": "xpath",
+    "iosValue": "x",
+    "iosType": "x"
+  }
+]
